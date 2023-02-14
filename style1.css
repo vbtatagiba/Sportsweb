@@ -3,8 +3,13 @@
     height: 260px;
 }
 body, html {
+    
     height: 100%;
-    background-color: antiquewhite;
+    margin: none;
+    background-image: url("imagens/background1.jpg");
+    background-position: center;
+    background-image: url("imagens/background1.jpg");
+    background-size: cover;
 }
 .bg {
     /* The image used */
@@ -15,17 +20,30 @@ body, html {
     background-position: center;
     background-image: url("imagens/background1.jpg");
     background-size: cover;
-    display: flex;
-    justify-content: space-between;
 }
-h2{
+
+.areaImagem{
+    float:left;
+    margin-top:10px;
+}
+
+.areaImagem img{
+    width:400px;
+}
+
+.areaTexto p{
+    float:left;
+    max-width:500px;
+    margin-left:10px;
+}
+h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     
 }
 p{
-    color:rgb(255, 255, 255);
-    margin: 1%;
+    color:rgb(0, 0, 0);
+    margin: 10px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     font-size: larger
