@@ -58,6 +58,7 @@ footer{
 }
 .botao1 {
 	box-shadow: 3px 4px 0px 0px #8a2a21;
+	opacity:0.7
 	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
 	background-color:#c62d1f;
 	border-radius:18px;
