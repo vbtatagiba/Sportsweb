@@ -3,62 +3,70 @@
     height: 260px;
 }
 body, html {
-    
-    height: 100%;
-    margin: none;
-    background-image: url("imagens/background1.jpg");
-    background-position: center;
-    background-image: url("imagens/background1.jpg");
-    background-size: cover;
+/* A imagem usada */
+background-image: url("imagens/background1.jpg");
+/*Tamanho tela cheia */
+height: 100%;
+width: 100%;
+/* Centralização e escalonamento da imagem */
+background-position: center;
+background-image: url("imagens/background1.jpg");
+background-size: cover;
 }
 .bg {
-    /* The image used */
-    background-image: url("imagens/background1.jpg");
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-image: url("imagens/background1.jpg");
-    background-size: cover;
+    display: inline-block;
+    width: 100%;
+
 }
 
 .areaImagem{
-    float:left;
-    margin-top:10px;
+    display: inline-block;
+    width: 15%;
+    margin: 2%;
+    vertical-align: top;
 }
 
-.areaImagem img{
-    width:400px;
-}
+.areaTexto{
+    display: inline-block;
+    vertical-align: left;
+    margin: 1%;
+    width: 70%;
 
-.areaTexto p{
-    float:left;
-    max-width:500px;
-    margin-left:10px;
+
+
+    color:rgb(0, 0, 0);
+
+    background-color: rgba(41, 41, 41, 0.2)   ;
+}
+p{
+    display: inline-block;
+    vertical-align: left;
+    margin: 1%;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    margin: left 700px;
+    background-color:  rgba(55, 55, 55, 0.2);
+    text-align: center;
+    
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    padding: 10px;
     
-}
-p{
-    color:rgb(0, 0, 0);
-    margin: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    font-size: larger
 }
 footer{
     position: absolute;
     bottom: 0;
-    
     clear:both;
     width: 100%;
     text-align: center;
 }
 .botao1 {
 	box-shadow: 3px 4px 0px 0px #8a2a21;
-	opacity:0.7;
+	opacity:0.75;
 	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
 	background-color:#c62d1f;
 	border-radius:18px;
