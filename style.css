@@ -29,7 +29,7 @@ img{
     display: flex;
     justify-content: space-between;
     vertical-align: left;
-    margin-left: 16%;
+    margin-left: 17%;
     width: 70%;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -41,7 +41,7 @@ img{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     padding: 10px;
-    width: 86%;
+    width: 87%;
     background-color:  rgba(255, 255,255, 0.5);
     text-align: justify;
 }
