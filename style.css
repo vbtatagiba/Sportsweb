@@ -9,38 +9,43 @@ width: 100%;
 background-position: center;
 background-image: url("imagens/background1.jpg");
 background-size: cover;
-}
-.bg {
-    display: inline-block;
-    width: 100%;
 
 }
+
 img{
+    padding: 20px;
     width: 250px;
-    height: auto;
-    align-self: auto;
-    background-color:  rgba(255, 255, 255, 0.5);
+
 }
 .areaImagem{
     display: inline;
     float:left;
-    width: 14%;
-    margin: 2%;
+    position: absolute; left:0%;
+    top: 120px;
+
 }
 
-p{
-    display: auto;
+#pr1{
+    display: flex;
+    justify-content: space-between;
     vertical-align: left;
-    margin: 1%;
-    margin-left: 5%;
+    margin-left: 16%;
     width: 70%;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     padding: 10px;
     background-color:  rgba(255, 255,255, 0.5);
-    text-align: left;
-    
+
+}    
+#pr2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 10px;
+    width: 86%;
+    background-color:  rgba(255, 255,255, 0.5);
+    text-align: justify;
 }
+
 h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;

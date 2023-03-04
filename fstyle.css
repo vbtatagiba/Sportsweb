@@ -187,16 +187,15 @@ h4, h3, h2{
     display: inline;
     flex-wrap: wrap;
     text-align: center;
-
     margin-top: 10px;
-
+    
 }
 
 .img{
     width: 400px;
     height: 250px;
     margin-top: 10px;
-    margin-left: 180px;
+
     padding: 0px;
 
     border: #ffffff solid;
