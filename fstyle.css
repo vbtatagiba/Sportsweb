@@ -90,7 +90,7 @@ h4, h3, h2{
 
 .beneficios{
 
-    background-image: url(images/fotobola.jpg);
+    background-image: url(imagens/fotobola.jpg);
     
     
     border-radius: 10px;
@@ -103,7 +103,7 @@ h4, h3, h2{
 
 .saude{
 
-    background-image: url(images/fotobola.jpg);
+    background-image: url(imagens/fotobola.jpg);
     
     font-size: small;
     
@@ -129,7 +129,7 @@ h4, h3, h2{
 
 
 .riscos{
-    background-image: url(images/estadio.jpg);
+    background-image: url(imagens/estadio.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
 
@@ -147,7 +147,7 @@ h4, h3, h2{
 }
 
 .social{
-    background-image: url(images/estadio.jpg);
+    background-image: url(imagens/estadio.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     
