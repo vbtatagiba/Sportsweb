@@ -1,76 +1,233 @@
-#img2{
-    width: 300px;
-    height: 260px;
-}
-body, html {
-/* A imagem usada */
-background-image: url("imagens/background1.jpg");
-/*Tamanho tela cheia */
-height: 100%;
-width: 100%;
-/* Centralização e escalonamento da imagem */
-background-position: center;
-background-image: url("imagens/background1.jpg");
-background-size: cover;
-}
-.bg {
-    display: inline-block;
-    width: 100%;
 
-}
-
-.areaImagem{
-    display: inline-block;
-    width: 15%;
-    margin: 2%;
-    vertical-align: top;
-}
-
-.areaTexto{
-    display: inline-block;
-    vertical-align: left;
-    margin: 1%;
-    width: 70%;
-
-
-
-    color:rgb(0, 0, 0);
-
-    background-color: rgba(41, 41, 41, 0.2)   ;
-}
-p{
-    display: inline-block;
-    vertical-align: left;
-    margin: 1%;
-    width: 70%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    padding: 10px;
-    margin: left 700px;
-    background-color:  rgba(55, 55, 55, 0.2);
-    text-align: center;
+body{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(28,28,28,1) 56%, rgba(51,54,51,1) 100%);
+    
+    font-family: Arial, "MS Trebuchet", sans-serif;
     
 }
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
     padding: 10px;
-    
-}
-footer{
     position: absolute;
+}
+
+
+ul{
+    margin-left: 15%;
+}
+
+li{
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    padding: 0px;
+    margin-left: 10px;
+    list-style: none;
+    display: inline;
+}
+
+h1{
+    text-decoration: underline;
+    
+    color: #313131;
+}
+
+h2{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.301);
+    text-decoration: underline;
+    
+}
+
+h4, h3, h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    text-align: center;
+    list-style: none;
+}
+
+.header{
+    background-color: whitesmoke;
+    color: #313131;
+    
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 98,5;
+    height: 70px;
+    
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+    
+}
+
+.textHeader{
+    width: 100%;
+    text-align: center;
+}
+
+.quadroum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.beneficios{
+
+    background-image: url(images/fotobola.jpg);
+    
+    
+    border-radius: 10px;
+    border: solid white;
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+}
+
+.saude{
+
+    background-image: url(images/fotobola.jpg);
+    
+    font-size: small;
+    
+    border-radius: 10px;
+    border: solid white;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 500px;
+}
+
+.quadrodois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+
+
+.riscos{
+    background-image: url(images/estadio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    font-size: smaller;
+    
+    border-radius: 10px;
+    border: solid white;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 6300px;
+
+}
+
+.social{
+    background-image: url(images/estadio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+    font-size: medium;
+
+    border-radius: 10px;
+    border: solid white;
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 630px;
+}
+
+.fonte{
+    
+    background-color: white;
+    border: solid white;
+
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.fonte, h4{
+    
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    text-align: center;
+}
+
+.campeonatos{
+
+    display: inline;
+    flex-wrap: wrap;
+    text-align: center;
+
+    margin-top: 10px;
+
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 180px;
+    padding: 0px;
+
+    border: #ffffff solid;
+    border-radius: 10px;
+}
+
+.footer{
+    border: #ffffff solid;
+    border-radius: 10px
+    
+}
+
+footer{
     bottom: 0;
+    
     clear:both;
     width: 100%;
     text-align: center;
+
+    padding: 15px;
+    max-width: 95%;
+    margin-left: 30px;
 }
+
 .botao1 {
-	box-shadow: 3px 4px 0px 0px #8a2a21;
-	opacity:0.75;
-	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-	background-color:#c62d1f;
+	box-shadow: 3px 4px 0px 0px #363636;
+	opacity:0.7;
+	background:linear-gradient(to bottom, #a9a9a9 5%, #4e4c4c 100%);
+	background-color:#808080;
 	border-radius:18px;
-	border:1px solid #d02718;
+	border:1px solid #8b8787;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -79,13 +236,17 @@ footer{
 	font-weight:bold;
 	padding:8px 25px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #810e05;
+	text-shadow:0px 1px 0px #1c1c1c;
 }
 .botao1:hover {
-	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-	background-color:#f24437;
+	background:linear-gradient(to bottom, #d3d3d3 5%, #474343 100%);
+	background-color:#808080;
 }
 .botao1:active {
 	position:relative;
 	top:1px;
 }
+
+
+
+
