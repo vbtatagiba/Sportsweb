@@ -1,0 +1,255 @@
+
+body{
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,126,101,1) 43%, rgba(0,255,222,1) 73%);
+    
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+
+ul{
+    margin-left: 0%;
+}
+
+li{
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    padding: 0px;
+    margin-left: 10px;
+    list-style: none;
+    margin-top:10px;
+}
+
+h1{
+    text-decoration: underline;
+    
+    color: #313131;
+}
+
+h2{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.301);
+    text-decoration: underline;
+    
+}
+
+h4, h3, h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    
+    color: whitesmoke;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    text-align: center;
+    list-style: none;
+}
+
+.header{
+    background-color: #FF8C00;
+    color: #313131;
+    
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 98,5;
+    height: 70px;
+    
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+    
+}
+
+.textHeader{
+    width: 100%;
+    text-align: center;
+}
+
+.quadroum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.beneficios{
+
+    background-image: url(imagens/bolavolei.jpg);
+    
+    
+    border-radius: 10px;
+    border: solid #FF8C00;
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+}
+
+.saude{
+
+    background-image: url(imagens/bolavolei.jpg);
+    
+    font-size: large;
+    
+    border-radius: 10px;
+    border: solid #FF8C00;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 500px;
+
+}
+
+.quadrodois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+
+
+.riscos{
+    background-image: url(imagens/voleibol.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    font-size: large;
+    
+    border-radius: 10px;
+    border: solid #FF8C00;
+
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 6300px;
+
+}
+
+.social{
+    background-image: url(imagens/voleibol.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+    font-size: larger;
+
+    border-radius: 10px;
+    border: solid #FF8C00;
+    padding: 10px;
+    margin-top: 10px;
+
+    max-width: 47%;
+    max-height: 630px;
+}
+
+.fonte{
+    
+    background-color: white;
+    border: solid #FF8C00;
+
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    max-width:1280px;
+    margin-left: 150px;
+    
+}
+
+.fonte, h4{
+    
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+    text-align: center;
+
+    
+}
+
+.campeonatos{
+
+    display: inline;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+
+    padding: 0px;
+
+    border: #FF8C00 solid;
+    border-radius: 10px;
+}
+
+.footer{
+    border: #FF8C00 solid;
+    border-radius: 10px
+    
+}
+
+footer{
+    
+    bottom: 0;
+    
+    clear:both;
+    width: 100%;
+    text-align: center;
+
+    padding: 15px;
+    max-width: 95%;
+    margin-left: 30px;
+}
+
+.botao1 {
+	box-shadow: 3px 4px 0px 0px #ac0303;
+	opacity:0.7;
+	background:linear-gradient(to bottom, #FFA500 5%, #FF4500 100%);
+	background-color:#FF8C00;
+	border-radius:18px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5a1e02;
+}
+.botao1:hover {
+	background:linear-gradient(to bottom, #FF4500 5%, #FFA500 100%);
+	background-color:#FF8C00;
+}
+.botao1:active {
+	position:relative;
+	top:1px;
+}
+
+
+
