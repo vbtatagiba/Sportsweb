@@ -7,8 +7,6 @@ body{
 }
 
 .logo{
-    height: 30px;
-    width: 30px;
     border-radius: 10px;
     padding: 10px;
     position: absolute;
@@ -87,7 +85,7 @@ h4, h3, h2{
 
 .beneficios{
 
-    background-image: url(imagens/fotobola.jpg);
+    background-image: url(imagens/basquete1.jpeg);
     z-index: 2;
     border-radius: 10px;
     border: solid white;
@@ -98,7 +96,7 @@ h4, h3, h2{
 
 .saude{
 
-    background-image: url(imagens/fotobola.jpg);
+    background-image: url(imagens/basquete1.jpeg);
     font-size: small;
     z-index: 2;
     border-radius: 10px;
@@ -121,7 +119,7 @@ h4, h3, h2{
 
 
 .riscos{
-    background-image: url(imagens/estadio.jpg);
+    background-image: url(imagens/basquete2.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     font-size: smaller;
@@ -136,7 +134,7 @@ h4, h3, h2{
 }
 
 .social{
-    background-image: url(imagens/estadio.jpg);
+    background-image: url(imagens/basquete2.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
     font-size: medium;
@@ -203,12 +201,12 @@ footer{
 }
 
 .botao1 {
-	box-shadow: 3px 4px 0px 0px #363636;
+	box-shadow: 3px 4px 0px 0px #ac3603;
 	opacity:0.7;
-	background:linear-gradient(to bottom, #a9a9a9 5%, #4e4c4c 100%);
-	background-color:#808080;
+	background:linear-gradient(to bottom, #ff8c00 5%, #FF4500 100%);
+	background-color:#FF8C00;
 	border-radius:18px;
-	border:1px solid #8b8787;
+	border:1px solid #000000;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -217,18 +215,17 @@ footer{
 	font-weight:bold;
 	padding:8px 25px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #1c1c1c;
-    z-index: 2;
+	text-shadow:0px 1px 0px #5a1e02;
 }
 .botao1:hover {
-	background:linear-gradient(to bottom, #d3d3d3 5%, #474343 100%);
-	background-color:#808080;
-    z-index: 2;
+	background:linear-gradient(to bottom, #ff8c00 5%, #FFA500 100%);
+	background-color:#FF8C00;
 }
 .botao1:active {
 	position:relative;
 	top:1px;
 }
+
 .rain{
     position: fixed;
     z-index: -1;

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bstyle.css">
+    <link rel="icon" href="imagens/icons8-basquete-50.png">
+    <!-- <link rel="stylesheet" href="rain.css"> -->
+    <title>SportWeb</title>
+</head>
+
+<body>
+    <div class="rain">
+    <script>
+        function rain(){
+    let amount=200;
+    let body=document.querySelector('body');
+    let i=0;
+    while (i<amount){
+        let drop=document.createElement('i');
+
+        let size=Math.random()*5;
+        let posX=Math.floor(Math.random()* window.innerWidth);
+        let delay=Math.random()*-20;
+        let duration=Math.random()*5;
+        
+        drop.style.width=0.2+size+'px';
+        drop.style.left=posX+'px';
+        drop.style.animationDelay=delay+'s';
+        drop.style.animationDuration=1+duration+'s'
+
+        body.appendChild(drop);
+        i++
+    }
+    }
+
+    rain()
+    </script>
+    </div>
+    <header class="header">
+        <div class="logo"><img src="imagens/basketball.png"></div>
+        <div class="textHeader"><h1> Basquete e suas curiosidades</h1></div>
+    </header> 
+
+    <div class="quadroum">
+        <div class="beneficios">
+            <h2> Benefícios </h2>
+            <h3>
+                A prática esportiva, além de melhorar o condicionamento físico e promover bem-estar, desenvolve nos jovens outros fatores importantes, como a disciplina, o senso de coletividade e comunidade, o raciocínio, entre outros fatores.
+            </h3>
+            <ul>
+                <li>Condicionamento físico;</li>
+                <li>Saúde mental;</li>
+                <li>Coletividade;</li>
+                <li>Disciplina;</li>
+            </ul>
+        </div>
+
+        <div class="saude">
+            <h3>
+                O basquete estimula uma maior concentração de serotonina na corrente sanguínea, diminuindo os níveis de estresse, melhorando o humor e o sono. 
+            </h3>
+            <h2> Jogar Basquete emagrece?</h2>
+            <h3>
+                O exercício é classificado como aeróbico. Beneficia o coração, pois mantém o principal órgão do corpo forte e saudável. Para os que desejam perder alguns quilinhos ou manter o peso corporal pode se beneficiar com o basquete. O exercício também promove músculos mais potentes, principalmente os dos membros inferiores.
+                A combinação entre uma alimentação saudável e a prática regular de atividades físicas, nesse caso o futebol, trarão resultados mais significativos!
+            </h3>
+        </div>
+    </div>
+
+    <div class="quadrodois">
+        <div class="riscos">
+            <h2>Lesões</h2>
+            <h3>
+                O basquete é um dos muitos esportes que exigem movimento do corpo inteiro. Por isso, é bastante recomendado como forma de adquirir um melhor condicionamento físico. Entretanto, como em qualquer prática esportiva, é possível sofrer algumas lesões. Mas quais são as mais comuns?
+            </h3>
+            <h3>
+                1 - Torção de tornozelo. A torção de tornozelo é uma lesão bastante recorrente, e muitos atletas, profissionais ou amadores - do basquete e de outras modalidades - já sofreram uma ou mais vezes. No basquete, ela acontece com certa frequência, pois o atleta precisa fazer muitos saltos durante o jogo, seja para pontuar, defender ou bloquear o adversário. A lesão geralmente acontece quando se “aterrisa” com o pé virado para dentro ou para fora, causando um impacto forte.
+            </h3>
+            <h3>
+                2 - Deslocamento de dedos.Outro problema comum em atletas de basquete é quando algum dedo acaba sendo deslocado. A maior parte dessas lesões acontece quando a bola bate na ponta dos dedos, fazendo com que alguma junta saia do lugar.    
+            </h3>
+        </div>
+
+        <div class="social">
+            <h2>Basquete como instrumento de socialização</h2>
+            <h3>
+                A integração de crianças e adolescentes na sociedade através do esporte é uma ação crescente nos últimos tempos e que vem dando certo. Nesse cenário, basquete e inclusão social são dois fatores que combinam, visto que o esporte é de fácil acesso e pode ser jogado entre poucas ou muitas crianças.
+            </h3>
+            <h3>
+                O esporte possibilita que todos tenham os mesmos direitos e cumpram as mesmas regras dentro de quadra, ensinando aos jogadores a serem disciplinados, a desenvolver a liderança e a respeitar os adversários.
+            </h3>
+        </div>
+    </div>
+
+
+    <div class="fonte">
+        <h4>
+            Fonte: Globo Esporte, Portal Periodicos UFC.
+        </h4>
+    </div>
+
+    <div class="campeonatos">
+        <h2> Principais competições assistidas no Brasil:</h2>
+        <center>
+            <img class="img" src="imagens/nbb.png">
+            <img class="img" src="imagens/lbf.png">
+
+        </center>
+    </div>
+
+    <div class="footer">
+        <footer align="center" >
+            <a href="https://vbtatagiba.github.io/Sportsweb/" class="botao1">Página inicial</a>
+            <a href="https://vbtatagiba.github.io/Sportsweb/vindex.html" class="botao1">Vôlei</a>
+            <a href="https://vbtatagiba.github.io/Sportsweb/findex.html" class="botao1">Futebol</a>
+        </footer>
+    </div>
+
+</body>
+</html>

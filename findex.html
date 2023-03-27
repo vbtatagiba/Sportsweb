@@ -6,11 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fstyle.css">
     <link rel="icon" href="imagens/icons8-futebol-50.png">
+    <link rel="stylesheet" href="rain.css">
     <title>SportWeb</title>
 </head>
 
 <body>
+    <div class="rain">
+    <script>
+        function rain(){
+    let amount=200;
+    let body=document.querySelector('body');
+    let i=0;
+    while (i<amount){
+        let drop=document.createElement('i');
 
+        let size=Math.random()*5;
+        let posX=Math.floor(Math.random()* window.innerWidth);
+        let delay=Math.random()*-20;
+        let duration=Math.random()*5;
+        
+        drop.style.width=0.2+size+'px';
+        drop.style.left=posX+'px';
+        drop.style.animationDelay=delay+'s';
+        drop.style.animationDuration=1+duration+'s'
+
+        body.appendChild(drop);
+        i++
+    }
+    }
+
+    rain()
+    </script>
+    </div>
     <header class="header">
         <div class="logo"><img src="imagens/Soccer_Ball_icon-icons.com_76265.ico"></div>
         <div class="textHeader"><h1> Futebol e suas curiosidades</h1></div>
@@ -89,5 +116,6 @@
             <a href="#" class="botao1">Basquete</a>
         </footer>
     </div>
+
 </body>
 </html>
